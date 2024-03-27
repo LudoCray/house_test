@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            .house {
+                width: 200px;
+                height: 200px;
+                position: relative;
+            }
+            
+            .roof {
+                width: 0;
+                height: 0;
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-bottom: 100px solid red;
+            }
+            
+            .pipe {
+                width: 15px;
+                height: 30px;
+                background-color: red;
+                position: absolute;
+                top: 37px;
+                left: 32px;
+            }
+            
+            .wall {
+                width: 200px;
+                height: 100px;
+                background-color: FF4F00;
+            }
+            
+            .door {
+                width: 40px;
+                height: 80px;
+                background-color: brown;
+                position: absolute;
+                bottom: 0;
+                left: 80px;
+            }
+            
+            .window {
+                width: 30px;
+                height: 30px;
+                background-color: lightblue;
+                position: absolute;
+                top: 130px;
+                left: 30px;
+            }
+            
+            .window_2 {
+                width: 30px;
+                height: 30px;
+                background-color: lightblue;
+                position: absolute;
+                top: 130px;
+                left: 145px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="house">
+            <div class="roof">
+                <div class="pipe"></div>
+            </div>
+            <div class="wall">
+                <div class="door"></div>
+                <div class="window"></div>
+                <div class="window_2"></div>
+            </div>
+        </div>
+    </body>
+
+</html>
